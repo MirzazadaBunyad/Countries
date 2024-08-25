@@ -1,0 +1,92 @@
+* {
+  text-decoration: none !important;
+  outline: none !important;
+  list-style: none !important;
+  transition: all 0.4s ease;
+}
+
+.darkbg {
+  background-color: #2b3945;
+  color: white;
+}
+
+.lightbg p, .lightbg h1 {
+  color: black;
+}
+
+.darkbg p, .darkbg h1 {
+  color: white;
+}
+
+.mainbg {
+  background-color: #202c37;
+  color: white;
+}
+
+.lightbg {
+  background-color: white;
+  color: black;
+}
+
+.color {
+  color: white;
+}
+
+.size {
+  font-size: 20px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.errimg {
+  width: 35%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+main {
+  min-height: 79.9vh;
+}
+
+#Search {
+  width: 300px;
+  background-color: transparent;
+}
+
+#Regions {
+  width: 100%;
+}
+
+.Card img {
+  height: 200px;
+}
+
+#DetailCard img {
+  height: 200px;
+}
+
+option {
+  padding-right: 200px !important;
+}
+
+@media only screen and (min-width: 768px) {
+  #Regions {
+    width: 250px;
+  }
+
+  #DetailCard img {
+    height: 300px;
+  }
+}

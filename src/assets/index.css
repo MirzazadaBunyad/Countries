@@ -61,7 +61,7 @@ main {
 }
 
 #Search {
-  width: 300px;
+  /* width: 300px; */
   background-color: transparent;
 }
 
@@ -82,6 +82,10 @@ option {
 }
 
 @media only screen and (min-width: 768px) {
+  #Search {
+    width: 100%;
+  }
+
   #Regions {
     width: 250px;
   }

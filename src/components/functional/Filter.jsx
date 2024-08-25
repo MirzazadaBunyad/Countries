@@ -33,12 +33,12 @@ function Filter({ data }) {
 
   return (
     <>
-      <div className="d-flex align-items-center justify-content-between gap-3 py-3 px-sm-4 px-5 flex-md-row ">
+      <div className="d-flex flex-wrap align-items-center justify-content-between gap-3 py-3 px-sm-4 px-5 flex-md-row ">
         <div
           id="SearchBar"
           className={`${
             color ? "darkbg" : "lightbg"
-          } border gap-2 py-2 px-3 d-flex align-items-center`}
+          } border w-100 gap-2 py-2 px-3 d-flex align-items-center`}
         >
           <FiSearch />
           <input

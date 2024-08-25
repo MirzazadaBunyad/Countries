@@ -38,7 +38,7 @@ function Filter({ data }) {
           id="SearchBar"
           className={`${
             color ? "darkbg" : "lightbg"
-          } border w-100 gap-2 py-2 px-3 d-flex align-items-center`}
+          } border max-sm:w-100 gap-2 py-2 px-3 d-flex align-items-center`}
         >
           <FiSearch />
           <input
